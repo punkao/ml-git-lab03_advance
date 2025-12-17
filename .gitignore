@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files (ไฟล์ข้อมูลขนาดใหญ่)
+data/*.csv
+data/*.pkl
+
+# Model files (ไฟล์ model)
+models/*.pkl
+models/*.joblib
+
+# Results (ผลลัพธ์ที่ generate ใหม่ได้)
+results/*.png
+results/*.json
+
+# Keep folder structure
+!data/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
